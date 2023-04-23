@@ -88,8 +88,8 @@ proxy-groups:
 
 - name: auto
   type: url-test
-  filter:
-    - {"US-"}
+  filter: "US-"
+  filter: "DE-"
   use:
     #- local
     - airports
