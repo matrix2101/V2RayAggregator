@@ -90,7 +90,6 @@ proxy-groups:
   type: url-test
   filter:
     - "US-"
-    - "DE-"
   use:
     #- local
     - airports
