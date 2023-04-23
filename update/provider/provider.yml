@@ -47,6 +47,7 @@ dns:
     - "https://1.1.1.1/dns-query"
     - "https://8.8.8.8/dns-query"
     - "https://9.9.9.9/dns-query"
+    - "https://rubyfish.cn/dns-query"
   fallback-filter:
     geoip: false
     ipcidr:
@@ -87,7 +88,7 @@ proxy-groups:
 
 - name: auto
   type: url-test
-  #filter: "🏁"
+  filter: "🇨🇳"
   use:
     #- local
     - airports
