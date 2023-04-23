@@ -88,9 +88,7 @@ proxy-groups:
 
 - name: auto
   type: url-test
-  filter: 
-    - {"🇺🇸"}
-    - {"🇩🇪"}
+  filter: {"🇺🇸","🇩🇪"}
   use:
     #- local
     - airports
