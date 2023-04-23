@@ -88,7 +88,7 @@ proxy-groups:
 
 - name: auto
   type: url-test
-  filter: {"DE-" or "US-"}
+  filter: "DE-"
   use:
     #- local
     - airports
@@ -117,7 +117,7 @@ proxy-providers:
       interval: 3600
       lazy: true
       url: "http://cdn.jsdelivr.net"
-      #url: "http://cp.cloudflare.com"
+      url: "http://cp.cloudflare.com"
       #url: "http://detectportal.firefox.com/success.txt"
 
   aggregator:
