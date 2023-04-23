@@ -89,7 +89,7 @@ proxy-groups:
 - name: auto
   type: url-test
   filter:
-    - {US-}
+    - {"US-"}
   use:
     #- local
     - airports
