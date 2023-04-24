@@ -1,4 +1,4 @@
-                          ## COUNTRY: IRAN ##
+                           ## COUNTRY: IRAN ##
 ## IMPORTANT: Import the appropriate config URL for your country of residence;-
 # e.g. "provider-cn.yml" if in China, instead of manually adjusting it,-
 # to ensure bypassing local services while still receiving updates for the config!
@@ -88,7 +88,7 @@ proxy-groups:
 
 - name: auto
   type: url-test
-  filter: "DE-"
+  filter: 'DE-'
   use:
     #- local
     - airports
