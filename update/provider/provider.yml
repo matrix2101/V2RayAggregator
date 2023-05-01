@@ -47,13 +47,11 @@ dns:
     - "https://1.1.1.1/dns-query"
     - "https://8.8.8.8/dns-query"
     - "https://9.9.9.9/dns-query"
-    - "https://rubyfish.cn/dns-query"
   fallback-filter:
     geoip: false
     ipcidr:
       - '0.0.0.0/8'
       - '10.0.0.0/8'
-      - '14.18.81.0/255'
       - '100.64.0.0/10'
       - '127.0.0.0/8'
       - '169.254.0.0/16'
